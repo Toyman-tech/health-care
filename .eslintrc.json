@@ -1,5 +1,5 @@
 {
-  "plugins": ["import"],
+  "plugins": ["import", "tailwindcss"],
   "extends": [
     "next/core-web-vitals",
     "standard",
@@ -25,6 +25,7 @@
           "caseInsensitive": true
         }
       }
-    ]
+    ],
+    "tailwindcss/classnames-order": "warn" // ✅ Ensure this is added
   }
 }

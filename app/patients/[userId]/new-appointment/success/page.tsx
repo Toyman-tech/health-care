@@ -28,7 +28,7 @@ const RequestSuccess = async ({
             alt="logo"
             className="h-10 w-fit"
           /> */}
-          <div className='flex flex-row align-middle gap-3 font-semibold'>
+          <div className='flex flex-row gap-3 align-middle font-semibold'>
           <Image
             src="/assets/icons/logo-icon.svg"
             height={1000}
@@ -36,7 +36,7 @@ const RequestSuccess = async ({
             alt="patient"
             className="mb-12 h-10 w-fit"
           />
-          <p className='flex text-center align-middle mt-2 h-10 w-fit'>HealthConnect</p>  
+          <p className='mt-2 flex h-10 w-fit text-center align-middle'>HealthConnect</p>  
           </div>
         </Link>
 

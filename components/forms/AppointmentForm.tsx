@@ -89,7 +89,7 @@ export const AppointmentForm = ({
           router.push(
             `/patients/${userId}/new-appointment/success?appointmentId=${newAppointment.$id}`
           );
-        }e
+        }
       } else {
         const appointmentToUpdate = {
           userId,
@@ -101,6 +101,7 @@ export const AppointmentForm = ({
             cancellationReason: values.cancellationReason,
           },
           type,
+          timeZone: "Africa/Lagos", // ✅ Add this line with a valid time zone
         };
 
         const updatedAppointment = await updateAppointment(appointmentToUpdate);
